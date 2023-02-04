@@ -20,7 +20,10 @@ const fileStorage = multer.diskStorage({
 
 
 const corsOption = {
-  origin: ["https://transcript-c94o.onrender.com", "https://sparkly-belekoy-a897fc.netlify.app/"],
+  origin: [
+    "https://transcript-c94o.onrender.com",
+    "https://cute-crepe-fec799.netlify.app",
+  ],
   optionsSuccessStatus: 200,
   methods: "GET,POST,PUT,DELETE",
 }; 
