@@ -7,7 +7,7 @@ const urlUpload = "https://api.assemblyai.com/v2/upload";
 const urlTranscript = "https://api.assemblyai.com/v2/transcript";
 
 
-exports.transcriptionAndTranslation = async (req, res, next) => {
+exports.transcription = async (req, res, next) => {
   try {
   
     /*----------------------------------------Request for url of audio file from Assembly AI--------------------------------------------------- */

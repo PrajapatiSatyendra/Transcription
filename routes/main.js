@@ -4,8 +4,8 @@ const mainControllers =require('../constrollers/main');
 
 
 router.post(
-  "/transcriptionAndTranslation",
-  mainControllers.transcriptionAndTranslation
+  "/transcription",
+  mainControllers.transcription
 );
 router.get('/hello', (req, res, next) => {
   res.send("Hello");
