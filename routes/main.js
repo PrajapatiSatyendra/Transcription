@@ -7,6 +7,8 @@ router.post(
   "/transcriptionAndTranslation",
   mainControllers.transcriptionAndTranslation
 );
-
+router.get('/hello', (req, res, next) => {
+  res.send("Hello");
+})
 
 module.exports= router;
