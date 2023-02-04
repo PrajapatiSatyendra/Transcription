@@ -20,10 +20,10 @@ const fileStorage = multer.diskStorage({
 
 
 const corsOption = {
-    origin: ['http://localhost:5000','http://localhost:3000'],
-    optionsSuccessStatus: 200,
-    methods: "GET,POST,PUT,DELETE"
-} 
+  origin: ["https://transcript-c94o.onrender.com", "http://localhost:3000"],
+  optionsSuccessStatus: 200,
+  methods: "GET,POST,PUT,DELETE",
+}; 
 app.use(cors(corsOption));
 
 app.use(multer({ storage: fileStorage }).single('file'));
